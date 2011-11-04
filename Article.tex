@@ -1,0 +1,50 @@
+\documentclass{article}
+
+\usepackage {amsmath}
+\usepackage {setspace}
+\usepackage [pdftex]{graphicx}
+\usepackage[sort&compress]{achemso}
+\usepackage{lineno}
+\usepackage{textcomp}
+
+% For typesetting roman numerals
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\usepackage[
+top    = 1.0in,
+bottom = 1.0in]{geometry}
+% some formatting tags
+%\oddsidemargin  0.0in
+%\evensidemargin 0.0in
+%\textwidth      6.5in
+
+\title{Ab Initio Simulation Study of Malonic Acid
+\author{Eric S. Shamay \and Geraldine L. Richmond}
+
+\begin{document}
+
+
+\newcommand{\ang}{\,$\textrm{\AA}$}
+\newcommand{\angs}{\ang}
+\newcommand{\wat}{H$_2$O}
+
+%\maketitle
+
+%\onehalfspacing
+\linenumbers 
+\doublespacing
+
+\include{Introduction}
+\include{ComputationalDetails}
+\include{Structure}
+\include{RDF}
+\include{Orientation}
+\include{Spectra}
+\include{Conclusions}
+
+\bibliography{malonic-study}
+
+\end{document}
