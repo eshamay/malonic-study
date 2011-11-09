@@ -6,7 +6,8 @@ import PlotUtility
 import numpy
 import Smoothing
 
-files = ['malonic-rdf-alcO-cp2k.dat', 'malonic-rdf-carbO-cp2k.dat', 'malonic-rdf-alcO-amber.dat', 'malonic-rdf-carbO-amber.dat']
+#files = ['malonic-rdf-alcO-cp2k.dat', 'malonic-rdf-carbO-cp2k.dat', 'malonic-rdf-alcO-amber.dat', 'malonic-rdf-carbO-amber.dat']
+files = ['malonic-rdf-alcO-cp2k.dat', 'malonic-rdf-carbO-cp2k.dat', 'MalonicRDF.alcO-H.surface.dat', 'MalonicRDF.carbO-H.surface.dat']
 cdfs = [CDF(f) for f in files]
 
 fig = plt.figure(num=1, facecolor='w', edgecolor='w', frameon=True)
