@@ -4,9 +4,27 @@ Hydration of malonic acid by surface waters and its resulting internal geometry 
 
 Here we briefly introduce the angles used in the analysis, and provide a graphical depiction of their definitions in Figure \ref{fig:angle-definitions} for reference. We define the overall molecular orientation by the configuration of the three carbon atoms that form the acid's backbone. Two angles, $\theta$ and $\phi$, describe the carbon backbone ``tilt'' and ``twist'', respectively. The tilt angle, $\theta$, is measured from a reference axis (herein defined as the vector normal to the plane of the water interface) to the carbon-group bisector axis (bisecting the two C-C bonds, and pointing from the central carbon towards the direction of the other two carbon atoms). The backbone twist, $\phi$, is rotation of the carbon group about the bisector axis. If the bisector lies in the plane of the water interface such that \thetaeq 90\degr, the twist will have a value of \phieq 0\degr~when the plane of the three carbons is perpendicular to the plane of the water surface. A combination of \thetaeq 90\degr~and \phieq 90\degr~indicates an orientation with the plane of the carbon group lying flat to the plane of the water surface.
 
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1.0]{images/orientation/malonic-angle-definitions.png}
+		\caption{}
+		\label{fig:angle-definitions}
+	\end{center}
+\end{figure}
+
+
 Furthermore, we are able to orient the carboxylic acid moieties in the molecule by quantifying the dihedral angle, $\psi$, for each of the two acid groups. The angle $\psi$ is a rotation of the plane of the O=C-O atoms of a carboxylic acid group relative to the plane of the three carbon atoms. An orientation aligning the carbonyl bond vector (pointing from C to O) of a carboxylic acid group parallel to the carbon group bisector results in a dihedral of \psieq 0\degr. Depictions of the angle definitions, and various values of $\psi$ for one of the carboxylic acid groups, are shown in Figure \ref{fig:angle-definitions} for reference.
 
 Plots of the \thetaphi~distributions are provided in Figure \ref{fig:theta-phi}. Three bivariate histograms are shown, depicting the orientational trends of the carbon backbone group. In these intensity plots, high intensity regions are colored darker red, and low intensity is colored dark blue. Regions of the plots exhibiting uniform coloration indicate isotropic behavior, whereas concentrated regions of high intensity show a preference for a particular orientation given by the specific angle combinations.
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1.0]{images/orientation/theta-phi.png}
+		\caption{}
+		\label{fig:theta-phi}
+	\end{center}
+\end{figure}
+
 
 The larger plot on the left of Figure \ref{fig:theta-phi} shows the angle distribution collected from the data of all five simulations. The highest intensity region is centered at \thetaeq 135\degr, and \phieq 90\degr. This indicates an orientation of the carbon backbone group tilted 45\degr~from the plane of the water surface with the central carbon further out towards the gas-phase side of the interface than the two carbonyl carbons. Additionally, the $\phi$ values show that the two carbonyl carbons are both at similar depths into the water side of the interface.
 
@@ -20,6 +38,15 @@ Turning now to the intramolecularly bonded malonic acid \thetaphi~plot of Figure
 
 The internal geometry of malonic acid is defined here by the two dihedral angles that quantify rotations of the carboxylic acid groups about the molecule's two C-C bonds. As mentioned earlier, the angle $\psi$ is referenced by the alignment of the C=O carbonyl bond with the C-C-C group bisector. Figure \ref{fig:angle-defintiions} depicts various orientations of a carboxylic acid group and the accompanying value of $\psi$. The overall \psipsi distribution is plotted on the left of Figure \ref{fig:psi-psi} with the plots of the internally unbonded and hydrogen bonded systems to the right in the figure on top and bottom, respectively. The larger plot of all simulation data is overwhelmed by the high intensity concentration at the \psipsi region of 0\degr-180\degr~at the bottom left of the plot. Much lower intensity regions appear throughout the \psipsi range.
 
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1.0]{images/orientation/psi-psi.png}
+		\caption{}
+		\label{fig:psi-psi}
+	\end{center}
+\end{figure}
+
 Looking to the intramolecularly bonded plot at the bottom right of Figure \ref{fig:psi-psi} it is clear why the larger plot of all the data sets is similarly concentrated at the bottom left of the plot. All of the intensity of the internally bonded acids indicates that the two carbonyl C=O bonds are aligned anti-parallel to each other. The strong H-bond holds the internal geometry nearly fixed with very little distortion through bending of the acid's six-member atom ring structure that forms with the added hydrogen bond interaction. An intense and highly concentrated region of the dihedral angle distribution is thus expected for the stable and mostly rigid form of the internally bonded malonic acid.
 
 The internally unbonded malonic acids exhibit a very different behavior in their carboxylic acid orientations. The top-right plot of Figure \ref{fig:psi-psi} shows the much broader, less concentrated distribution resulting from acids without the internal H-bonding constraints. The multiple regions of low intensity throughout the plotted range speak to the molecule's much greater flexibility, and the nature of having the two carboxylic acid ends of the molecule much more decoupled. However, a trend is apparent in the distribution of the two dihedral angles. There appears to be two regions in the plot located at the center-left and top-center of the plot. In our previously published results of the complementary classical force field simulations,\cite{Blower2012} the \psipsi distributions throughout the interfacial region had two similarly located peaks. In that study the regions of the plot were more concentrated over small areas at \psipsi values of 0\degr~and 90\degr. That combination is indicative of the dihedrals aligning 90\degr~from each other, i.e. perpendicularly. One of the C=O bonds is aligned parallel to the C-C-C bisector (\psieq 0\degr), and the other is perpendicular to the plane formed by the C-C-C atoms (\psieq 90\degr). The correspondence of the two regions in the distribution of the present work to those of the classical simulations is noteworthy The classical force field reproduces the dihedral trend of two peaks in the distribution, but the much smaller region over which the $\psi$ angles appear suggests that the corresponding term in the classical potential needs to be adjusted to better recreate the ab initio results for higher accuracy. The present results, however, suggest that without further modifications, there is good agreement between the ab initio and classical potentials with regards to the overall orientation of surface malonic acid molecules. The shortcoming of the classical potential is its inability to properly capture the internal hydrogen bond conformation. Though, that conformation may not be a major overall contributor to the distribution of acids found at a water surface.
@@ -28,6 +55,15 @@ The internally unbonded malonic acids exhibit a very different behavior in their
 Having now established the \thetaphi orientational trend of the carbon backbone atoms, and the \psipsi dihedral relationships, we have a nearly complete orientational picture of surface malonic acid. What remains to determine is the absolute orientation of both carboxylic acid groups with respect to the plane of the water surface. In order to compare the orientational results with our recent experimental results determined by the SFG spectra of the carbonyl modes of malonic acid,\cite{Blower2012} we now further expand on the configuration of the carboxylic acid groups. Specifically, the analysis presented shows how the carbonyl C=O bond vectors orient relative to the reference axis normal to the plane of the interface, forming a new angle, \thetacarb.
 
 The distribution of \thetacarb is presented in Figure \ref{fig:theta-carb}. The black plot shows the distribution of angles from all simulation datasets. The red and blue plots correspond to the \thetacarb data collected only from the intramolecularly H-bonded, and internally unbonded simulations, respectively. In all the distributions two angle regions dominate in population, appearing as peaks from approximately 50\degr-120\degr, and 150\degr-180\degr. The former angle range corresponds to carbonyl C=O bonds pointing in the plane of the water surface ($\theta_{C=O}=90$\degr~indicates a carbonyl parallel to the plane), slightly above, or slightly below the plane. The latter range indicates carbonyl bonds pointing directly in towards the water side of the interface ($\theta_{C=O}=180$\degr) or within a cone of approximately 30\degr~tilt from the reference axis into the water bulk.
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=1.0]{images/orientation/Carbonyl-CO-Theta.png}
+		\caption{}
+		\label{fig:theta-carb}
+	\end{center}
+\end{figure}
 
 Looking at the individual red and blue plots, there are some differences between how the acid internal bonding conformations behave. The lower peak of the blue plot is centered at approximately $\theta_{C=O}=90$\degr, with a peak width extending up to 30\degr~to either side. The peak near 180\degr~is slightly broader down to 130\degr. Between the two peaks there is a small baseline population, whereas for $\theta_{C=O} < 50$\degr, there is very little or no distribution height.
 
