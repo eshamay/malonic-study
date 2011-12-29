@@ -14,7 +14,10 @@
    id="svg3236"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="New document 3">
+   sodipodi:docname="malonic-orientation-cartoons.svg"
+   inkscape:export-filename="/home/eric/Documents/malonic-study/images/bond-length/structure.png"
+   inkscape:export-xdpi="300.05679"
+   inkscape:export-ydpi="300.05679">
   <defs
      id="defs3238">
     <filter
@@ -61,14 +64,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.34557762"
-     inkscape:cx="356.86246"
-     inkscape:cy="501.64431"
+     inkscape:zoom="0.89136085"
+     inkscape:cx="442.49262"
+     inkscape:cy="637.39644"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1035"
-     inkscape:window-height="773"
+     inkscape:window-width="1160"
+     inkscape:window-height="767"
      inkscape:window-x="539"
      inkscape:window-y="185"
      inkscape:window-maximized="0" />
@@ -90,7 +93,7 @@
      id="layer1">
     <g
        id="g3395"
-       transform="matrix(3.1384285,0,0,3.1384285,-1508.0235,-1818.8733)">
+       transform="matrix(1.2158914,0,0,1.2158914,-332.5785,-547.75672)">
       <text
          inkscape:export-ydpi="300.05679"
          inkscape:export-xdpi="300.05679"
@@ -308,7 +311,7 @@
     </g>
     <g
        id="g3424"
-       transform="matrix(3.1384285,0,0,3.1384285,-621.80187,-1237.4485)">
+       transform="matrix(1.2158914,0,0,1.2158914,-0.08584739,-322.50077)">
       <text
          inkscape:export-ydpi="300.05679"
          inkscape:export-xdpi="300.05679"
@@ -545,5 +548,27 @@
          d="m 519.36876,644.38005 4.57885,-17.58788"
          style="fill:none;stroke:#000000;stroke-width:1.0302639px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:27.89427948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gentium;-inkscape-font-specification:Gentium"
+       x="99.537575"
+       y="522.01776"
+       id="text3049"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3051"
+         x="99.537575"
+         y="522.01776">Internally Unbonded</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.89427948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gentium;-inkscape-font-specification:Gentium"
+       x="400.30792"
+       y="522.01776"
+       id="text3053"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3055"
+         x="400.30792"
+         y="522.01776">Intramolecularly H-bonded</tspan></text>
   </g>
 </svg>
